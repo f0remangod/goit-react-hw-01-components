@@ -18,7 +18,7 @@ export const StatsItem = styled.li`
   padding: 10px;
   width: calc(100% / 5);
   text-align: center;
-  background-color: ${props => props.prop && randomColor()};
+  background-color: ${randomColor};
 `;
 export const StatsLabel = styled.span`
   color: white;
